@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
 
+// This file creates a database called "users"
+
 const userSchema = mongoose.Schema({
     _id: mongoose.Schema.Types.ObjectId,
     guildID: String,
