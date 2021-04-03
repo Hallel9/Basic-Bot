@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 const Guild = require('../models/guild');
 
+// When the bot leaves a guild that's already added to the database, the guild will be deleted from it.
+
 module.exports = async (client, guild) => {
     Guild.findOneAndDelete({
         guildID: guild.id
