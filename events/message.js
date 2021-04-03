@@ -3,6 +3,8 @@ const Guild = require("../models/guild");
 const config = require("../config.json");
 const escapeRegex = str => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const db = require('quick.db')
+
+// When you send a message into the guild, if the guild is not already in the database, the bot will reply with a message and add your guild to the database.
 module.exports = async (client, message) => {
   if (!message.guild) return;
   if (message.author.bot) return;
