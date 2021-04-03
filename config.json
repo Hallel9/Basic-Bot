@@ -2,5 +2,5 @@
     "token":"BOT TOKEN HERE",
     "prefix":"*",
     "MONGO_URI":"MONGO_URI HERE",
-    "owners": ["241632903258177536"] // Replace my id with your id or anyone else's not that you trust.
+    "owners": ["User IDs here"] 
 }
