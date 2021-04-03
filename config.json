@@ -1,0 +1,6 @@
+{
+    "token":"BOT TOKEN HERE",
+    "prefix":"*",
+    "MONGO_URI":"MONGO_URI HERE",
+    "owners": "241632903258177536"
+}
