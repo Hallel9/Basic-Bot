@@ -2,6 +2,8 @@ const mongoose = require('mongoose');
 const Guild = require('../models/guild');
 const config = require('../config.json')
 
+// When the bot joins a new server, the server will be added to the database with the options down below.
+
 module.exports = async (client, guild) => {
     guild = new Guild({
         _id: mongoose.Types.ObjectId(),
